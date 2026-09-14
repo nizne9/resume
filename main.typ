@@ -24,25 +24,33 @@
   lang: "zh",
 )
 
-#set par(justify: false, leading: 0.48em)
-#set list(indent: 0.95em, body-indent: 0.5em, spacing: 3.5pt)
+#set par(justify: true, leading: 0.5em)
+#set list(indent: 0.95em, body-indent: 0.5em, spacing: 3.6pt)
 
-== 申请信息
+== 个人概况
 
-- *报考方向*：北京邮电大学人工智能学院，智能科学与技术（140500），硕博连读；拟报导师：杨阳。
-- *研究兴趣*：6G 非地面网络、复杂动态系统中的资源优化与智能决策，重点关注多智能体强化学习和大模型辅助建模。
-- *个人定位*：本科和硕士阶段主要在通信与人工智能交叉方向做研究，已完成一篇第一作者在审论文，并参与两篇录用论文的实验和修改工作。
+- *研究兴趣*：统一多模态大模型、具身世界模型、时空物理动力学生成与基于世界模型的强化学习决策。
+- *学术成果*：主要从事大模型与强化学习算法研究，已完成一篇第一作者长文（Manuscript under Revision），并作为核心作者参与两篇录用论文（含 IEEE TVT 顶刊 1 篇、IEEE PIMRC 1 篇）的实验与修改工作。
 
 == 教育背景
 
 #edu(
-  institution: "北京邮电大学",
+  institution: "北京中关村学院 & 北京邮电大学",
   location: "北京",
-  dates: "2025.09 至今",
-  degree: "人工智能学院，人工智能专业，硕士研究生",
+  dates: "2026.09 至今",
+  degree: "智能科学与技术专业，博士研究生（硕博连读，学籍导师：杨阳）",
   consistent: true,
 )
-- 当前研究方向：智能无线通信、非地面网络、多智能体强化学习、复杂系统建模与仿真。
+- 研究意向：统一多模态生成、具身智能世界模型与物理时空动力学推演。
+
+#edu(
+  institution: "北京邮电大学",
+  location: "北京",
+  dates: "2025.09 - 2026.06",
+  degree: "人工智能学院，人工智能专业，硕士研究生（硕博连读，导师：杨阳）",
+  consistent: true,
+)
+- 硕士课题：复杂动态系统建模、深度强化学习与高维序贯决策优化。
 
 #edu(
   institution: "北京邮电大学",
@@ -55,9 +63,9 @@
 
 == 论文成果
 
-- *Multi-agent Hierarchical DRL-based AoI Minimization for RSMA-Enabled Integrated Satellite-Terrestrial Networks*，第一作者，IEEE TGCN，Under Review。面向 RSMA 使能低轨星地融合网络，建立含信道估计误差的 AoI 最小化问题；提出 MHDP 框架，将 DQN 用户调度与 PPO 功率控制解耦，处理离散调度和连续功率控制的混合动作空间；负责主要仿真实验、消融对比和结果分析。
-- *Deep Reinforcement Learning-Based Service Offloading Optimization in 6G FANETs*，第二作者，IEEE PIMRC 2026，Accepted。围绕 6G FANET 服务卸载问题，协助搭建实验流程、整理对比结果和训练曲线，参与 MP-DPC 算法实验验证、指标解释、图表整理和论文修改。
-- *Generative AI Based Secrecy Throughput Improvement in IRS-NOMA-Aided FANETs*，第二作者，IEEE ICC 2026 Workshop，Accepted。协助完成 IRS-NOMA 辅助 FANET 安全吞吐率优化实验，参与 DRAG、MoE、DA-PPO 相关实验结果核对、消融对比、图表整理和英文稿件修改。
+- *Multi-agent Hierarchical DRL-based AoI Minimization for RSMA-Enabled Integrated Satellite-Terrestrial Networks*（第一作者，Manuscript under Revision）。面向 RSMA 使能低轨星地融合网络，建立含信道估计误差的 AoI 最小化问题；提出 MHDP 框架，将 DQN 用户调度与 PPO 功率控制解耦，处理离散调度和连续功率控制的混合动作空间；负责主要仿真实验、消融对比与结果分析。
+- *LLM-Assisted Secrecy Rate Optimization in RIS-NOMA-Enabled UAV Networks*（第二作者，IEEE TVT Accepted，前期成果发表于 IEEE ICC 2026 Workshop）。围绕 RIS-NOMA 辅助无人机通信场景，参与大模型辅助安全速率优化建模与决策设计，负责仿真对比、消融分析及审稿意见回复修改。
+- *Deep Reinforcement Learning-Based Service Offloading Optimization in 6G FANETs*（第二作者，IEEE PIMRC 2026 Accepted）。围绕 6G FANET 服务卸载问题，协助搭建实验流程、整理对比结果和训练曲线，参与 MP-DPC 算法实验验证、指标解释、图表整理与论文修改。
 
 == 科研经历
 
@@ -81,18 +89,18 @@
 
 == 获奖经历
 
+- 快手探索者 LLM-Rec 挑战赛全国总决赛 Top 20（ACM SIGIR 联办，1200+ 队伍） #h(1fr) 2026.09
 - 北京邮电大学人工智能学院硕士研究生新生学业奖学金 #h(1fr) 2025.12
-- 北京中关村学院秋令营优秀营员 #h(1fr) 2025
 - 北京市大学生电子设计竞赛 H 题自动行驶小车二等奖 #h(1fr) 2024.08
 
 == 拟研究计划
 
-- 尝试把 LLM/RAG/Agent 用到通信场景建模、优化问题表述和仿真实验流程整理中，先从可验证的小流程做起。
-- 继续围绕非地面网络中的资源分配、功率控制和信息新鲜度优化，研究多智能体强化学习方法。
+- *统一多模态与生成模型*：探索原生统一 Any-to-Any 多模态生成架构，研究离散与连续 Token 统一表征及自回归/流匹配生成范式，提升模型在复杂物理语义与空间几何中的对齐与泛化能力。
+- *具身世界模型与决策推演*：结合强化学习与视频时空动力学生成，构建动作条件驱动的具身世界模型；通过潜在空间物理仿真与反事实推演，探索基于世界模型的闭环具身策略学习（Model-based RL）。
 
 == 基础能力
 
-- *科研基础*：熟悉深度强化学习、多智能体协同、通信网络优化、复杂系统建模与仿真实验方法。
-- *大模型技术*：了解 LLM/RAG/Agent 基本工作流，正在关注其在通信建模、策略生成和实验分析中的用法。
+- *科研基础*：熟悉深度强化学习（Model-Free / Model-Based RL）、多智能体协同、复杂动态系统建模与仿真实验方法。
+- *大模型技术*：熟悉多模态大模型（VLM/MLLM）、统一生成架构与 Agent 工作流，深入关注具身世界模型时空推演与策略优化。
 - *编程与工具*：Python、PyTorch、C/C++、PaddlePaddle、Linux、Git、Typst。
 - *外语能力*：已通过 CET-4/CET-6，能够阅读英文文献并参与英文学术论文撰写与修改。

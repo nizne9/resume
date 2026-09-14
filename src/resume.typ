@@ -44,8 +44,8 @@
 
   // Small caps for section titles
   show heading.where(level: 2): it => [
-    #pad(top: 0pt, bottom: -10pt, [#smallcaps(it.body)])
-    #line(length: 100%, stroke: 1pt)
+    #pad(top: 1pt, bottom: -6pt, [#smallcaps(it.body)])
+    #line(length: 100%, stroke: 0.8pt)
   ]
 
   // Accent Color Styling
