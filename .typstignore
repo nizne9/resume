@@ -17,3 +17,5 @@ docs/*
 
 example-resume.pdf
 example-resume.png
+materials
+*:Zone.Identifier
